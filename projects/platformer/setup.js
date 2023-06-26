@@ -2,7 +2,7 @@
 const walkAcceleration = 2.5; // how much is added to the speed each frame
 const gravity = 0.5; // how much is subtracted from speedY each frame
 const friction = 1.5; // how much the player is slowed each frame
-const maxSpeed = 8; // maximum horizontal speed, not vertical
+const maxSpeed = 9; // maximum horizontal speed, not vertical
 const playerJumpStrength = 12; // this is subtracted from the speedY each jump
 const projectileSpeed = 8; // the speed of projectiles
 
@@ -69,11 +69,7 @@ let offsetX = 0;
 let offsetY = 0;
 
 // Platform, cannon, projectile, and collectable variables
-let platforms = [(400, 200, 100, 40)
-    (500, 300, 100, 40)
-    (600, 400, 100, 40)
-    (700, 499, 100, 40)
-    (600, 600, 100, 40)];
+let platforms = [];
 let cannons = [];
 const cannonWidth = 118;
 const cannonHeight = 80;
