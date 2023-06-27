@@ -9,7 +9,7 @@
 		.box {
 			width: 70px;
 			height: 70px;
-			background-color: teal;
+			background-color: rgb(24, 209, 209);
 			font-size: 300%;
 			text-align: center;
 			user-select: none;
@@ -84,6 +84,21 @@
 
 				positionX = positionX + speed;
 
+				if (positionX > boardWidth) {
+					speed = speed * -1;
+				}
+
+				if (positionX < 0) {
+					speed = speed * -1;
+				}
+
+				if (speed = + 3){
+					speed = speed + 3
+				}
+
+				 else if (speed = - ) {
+					speed = speed -3
+				 }
 			};
 
 			/* 
@@ -97,7 +112,7 @@
 				points = points + 1
 				changeBoxText(points);
 
-				
+
 				speed = speed + 3
 			};
 		})();
