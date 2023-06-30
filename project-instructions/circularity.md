@@ -384,7 +384,7 @@ A loop should do the job!
   ```javascript
   var loopsCompleted = 0;
   while (loopsCompleted < 10) {
-    // do something
+    // Do something
     loopsCompleted++;
   }
   ```
